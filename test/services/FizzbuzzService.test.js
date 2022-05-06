@@ -22,11 +22,10 @@ describe("Test para metodos en ExplorerService", () => {
         expect(score.trick).toBe('BUZZ');
     });
 
-    ttest("Validar Score 3", () => {
-        const explorer3 = {name: "Explorer 3", score: 3}
-        const score = FizzbuzzService.applyVAlidationInExplorer(explorer3);
-        expect(score.trick).toBe('FIZZ');
-    });'FIZZBUZZ');
+    ttest("Validar Score 15", () => {
+        const explorer15 = {name: "Explorer 15", score: 15}
+        const score = FizzbuzzService.applyVAlidationInExplorer(explorer15);
+        expect(score.trick).toBe('FIZZBUZZ');
     });
 
 });
