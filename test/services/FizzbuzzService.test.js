@@ -28,4 +28,9 @@ describe("Test para metodos en ExplorerService", () => {
         expect(score.trick).toBe('FIZZBUZZ');
     });
 
+    test("Validar numero recibido", () => {
+        const validarNumero = FizzbuzzService.applyValidationInNumber(15);
+        expect(validarNumero).toBe("FIZZBUZZ");
+    });
+
 });
