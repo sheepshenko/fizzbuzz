@@ -22,7 +22,7 @@ describe("Test para metodos en ExplorerService", () => {
         expect(score.trick).toBe('BUZZ');
     });
 
-    ttest("Validar Score 15", () => {
+    test("Validar Score 15", () => {
         const explorer15 = {name: "Explorer 15", score: 15}
         const score = FizzbuzzService.applyVAlidationInExplorer(explorer15);
         expect(score.trick).toBe('FIZZBUZZ');
